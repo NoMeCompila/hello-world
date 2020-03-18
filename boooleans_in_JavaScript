@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+var variable1 = new Boolean(0);
+console.log(variable1.toString());
+
+var variable2 = new Boolean("");
+console.log(variable2.toString());
+
+var variable3 = new Boolean(NaN);
+console.log(variable3.toString());
+
+var variable4 = new Boolean(null);
+console.log(variable4.toString());
+
+var variable5 = new Boolean(.0);
+console.log(variable5.toString());
+
+var variable6 = new Boolean();
+console.log(variable6.toString());
+
+var variable7 = new Boolean(false);
+console.log(variable7.toString());
+
+var variable1 = new Boolean(0);
+console.log(variable1.toString());
+
+var variable8 = new Boolean(true);
+console.log(variable8.toString());
+
+var variable9 = new Boolean("hola");
+console.log(variable9.toString());
+
+var variable10 = new Boolean(2);
+console.log(variable10.toString());
+</script>
+
+
+
+<script id="jsbin-source-javascript" type="text/javascript">var variable1 = new Boolean(0);
+console.log(variable1.toString());
+
+var variable2 = new Boolean("");
+console.log(variable2.toString());
+
+var variable3 = new Boolean(NaN);
+console.log(variable3.toString());
+
+var variable4 = new Boolean(null);
+console.log(variable4.toString());
+
+var variable5 = new Boolean(.0);
+console.log(variable5.toString());
+
+var variable6 = new Boolean();
+console.log(variable6.toString());
+
+var variable7 = new Boolean(false);
+console.log(variable7.toString());
+
+var variable1 = new Boolean(0);
+console.log(variable1.toString());
+
+var variable8 = new Boolean(true);
+console.log(variable8.toString());
+
+var variable9 = new Boolean("hola");
+console.log(variable9.toString());
+
+var variable10 = new Boolean(2);
+console.log(variable10.toString());</script></body>
+</html>
